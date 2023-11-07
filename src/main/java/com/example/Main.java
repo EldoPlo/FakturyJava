@@ -27,6 +27,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         Store store = new Store(mockingDatabase);
+        OperationHandler operationHandler = new OperationHandler(store);
         boolean isRunning = true;
 
         while (isRunning) {
